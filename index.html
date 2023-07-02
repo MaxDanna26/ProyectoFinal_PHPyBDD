@@ -1,0 +1,86 @@
+<style>
+    body{
+    background-color: #6c6fc6;
+}
+
+    /* Estilos generales del formulario */
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #e1f0ff; /* Color celeste del recuadro */
+  border-radius: 10px;
+  margin-top: 7rem;  
+}
+
+/* Estilos de los campos a completar */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f0f0f0; /* Color gris de los campos */
+  border-radius: 5px;
+  border: none;
+}
+
+/* Estilos del botón submit */
+button {
+  background-color: #ff0000; /* Color rojo y llamativo */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000; /* Color rojo más oscuro al pasar el cursor */
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<html>
+
+      <head>
+
+            <title>Ejemplo de login</title>
+
+            <meta charset="utf-8">
+
+      </head>
+
+      <body>
+
+            <form method="post" action="validar.php" name="signin-form">
+
+            <div class="form-element">
+
+                  <label>Username</label>
+
+                  <input type="text" name="username"  required />
+
+            </div>
+
+            <div class="form-element">
+
+                  <label>Password</label>
+
+                  <input type="password" name="password" required />
+
+            </div>
+            <div class="centrar">
+                <button type="submit" name="login" value="login">Log In</button>
+            </div>
+
+
+            </form>          
+
+      </body>
+
+</html>

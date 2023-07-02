@@ -1,0 +1,97 @@
+body{
+    background-color: #6c6fc6;
+}
+
+    /* Estilos generales del formulario */
+form {
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #e1f0ff; /* Color celeste del recuadro */
+  border-radius: 10px;
+}
+
+/* Estilos de los campos a completar */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f0f0f0; /* Color gris de los campos */
+  border-radius: 5px;
+  border: none;
+}
+
+/* Estilos del botón submit */
+button {
+  background-color: #ff0000; /* Color rojo y llamativo */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000; /* Color rojo más oscuro al pasar el cursor */
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.titulo{
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.pregunta{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10%;
+
+}
+
+.recuadro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+a{
+  font-style: none;
+  text-decoration: none;
+}
+
+
+
